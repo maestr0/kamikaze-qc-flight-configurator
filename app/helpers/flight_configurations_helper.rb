@@ -1,0 +1,2 @@
+module FlightConfigurationsHelper
+end

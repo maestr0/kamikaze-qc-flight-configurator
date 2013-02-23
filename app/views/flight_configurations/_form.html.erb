@@ -1,0 +1,45 @@
+<%= form_for(@flight_configuration) do |f| %>
+  <% if @flight_configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@flight_configuration.errors.count, "error") %> prohibited this flight_configuration from being saved:</h2>
+
+      <ul>
+      <% @flight_configuration.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :motor1 %><br />
+    <%= f.number_field :motor1 %>
+  </div>
+  <div class="field">
+    <%= f.label :motor2 %><br />
+    <%= f.number_field :motor2 %>
+  </div>
+  <div class="field">
+    <%= f.label :motor3 %><br />
+    <%= f.number_field :motor3 %>
+  </div>
+  <div class="field">
+    <%= f.label :motor4 %><br />
+    <%= f.number_field :motor4 %>
+  </div>
+  <div class="field">
+    <%= f.label :control_status %><br />
+    <%= f.number_field :control_status %>
+  </div>
+  <div class="field">
+    <%= f.label :correction_vector %><br />
+    <%= f.number_field :correction_vector %>
+  </div>
+  <div class="field">
+    <%= f.label :correction_limit %><br />
+    <%= f.number_field :correction_limit %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

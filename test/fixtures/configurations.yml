@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  motor_1: MyText
+  motor_2: MyText
+  motor3: MyText
+  motor4: MyText
+  control_status: 1
+  correction_vector: 1
+
+two:
+  motor_1: MyText
+  motor_2: MyText
+  motor3: MyText
+  motor4: MyText
+  control_status: 1
+  correction_vector: 1

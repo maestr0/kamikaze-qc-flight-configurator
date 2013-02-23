@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Motor 1:</b>
+  <%= @flight_configuration.motor_1 %>
+</p>
+
+<p>
+  <b>Motor 2:</b>
+  <%= @flight_configuration.motor_2 %>
+</p>
+
+<p>
+  <b>Motor3:</b>
+  <%= @flight_configuration.motor3 %>
+</p>
+
+<p>
+  <b>Motor4:</b>
+  <%= @flight_configuration.motor4 %>
+</p>
+
+<p>
+  <b>Control status:</b>
+  <%= @flight_configuration.control_status %>
+</p>
+
+<p>
+  <b>Correction vector:</b>
+  <%= @flight_configuration.correction_vector %>
+</p>
+
+<p>
+  <b>Correction limit:</b>
+  <%= @flight_configuration.correction_limit %>
+</p>
+
+
+<%= link_to 'Edit', edit_flight_configuration_path(@flight_configuration) %> |
+<%= link_to 'Back', flight_configurations_path %>

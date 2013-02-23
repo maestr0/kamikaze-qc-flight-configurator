@@ -1,0 +1,35 @@
+<h1>Listing flight_configurations</h1>
+
+<table>
+  <tr>
+    <th>Motor 1</th>
+    <th>Motor 2</th>
+    <th>Motor3</th>
+    <th>Motor4</th>
+    <th>Control status</th>
+    <th>Correction vector</th>
+    <th>Correction limit</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @flight_configurations.each do |flight_configuration| %>
+  <tr>
+    <td><%= flight_configuration.motor_1 %></td>
+    <td><%= flight_configuration.motor_2 %></td>
+    <td><%= flight_configuration.motor3 %></td>
+    <td><%= flight_configuration.motor4 %></td>
+    <td><%= flight_configuration.control_status %></td>
+    <td><%= flight_configuration.correction_vector %></td>
+    <td><%= flight_configuration.correction_limit %></td>
+    <td><%= link_to 'Show', flight_configuration %></td>
+    <td><%= link_to 'Edit', edit_flight_configuration_path(flight_configuration) %></td>
+    <td><%= link_to 'Destroy', flight_configuration, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Flight configuration', new_flight_configuration_path %>
