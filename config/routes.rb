@@ -2,6 +2,10 @@ QCControlPanel::Application.routes.draw do
   resources :flight_configurations
 
   root :to => "flight_configurations#index"
+
+  match 'configuration/:id' => 'flight_configurations#show', :format => :json
+  match 'configuration' => 'flight_configurations#show', :format => :json, :id => "1"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
