@@ -60,15 +60,21 @@
     <div class="row">
         <div class="field span4">
             <%= f.label :control_status %><br/>
+            <button class="btn btn-primary btn-large increment">+</button>
             <%= f.number_field :control_status %>
+            <button class="btn btn-primary btn-large decrement">-</button>
         </div>
         <div class="field span4">
             <%= f.label :correction_vector %><br/>
+            <button class="btn btn-primary btn-large increment">+</button>
             <%= f.number_field :correction_vector %>
+            <button class="btn btn-primary btn-large decrement">-</button>
         </div>
         <div class="field span4">
             <%= f.label :correction_limit %><br/>
+            <button class="btn btn-primary btn-large increment">+</button>
             <%= f.number_field :correction_limit %>
+            <button class="btn btn-primary btn-large decrement">-</button>
         </div>
     </div>
     <div class="actions">
