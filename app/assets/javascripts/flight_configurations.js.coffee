@@ -12,6 +12,10 @@ $ ->
   self.motor3 = $("#flight_configuration_motor3")
 $ ->
   self.motor4 = $("#flight_configuration_motor4")
+$ ->
+  self.correctionVector = $("#flight_configuration_correction_vector")
+$ ->
+  self.correctionLimit = $("#flight_configuration_correction_limit")
 
 self = this;
 
@@ -35,10 +39,17 @@ processData = (data, textStatus, jqXHR) ->
 
 $ ->
   $("#stop").click ->
-    $("input[id*='flight_configuration_motor']").each ->
+    $("input[type='number']").each ->
       $(this).val -> 0
     saveForm()
 
+$ ->
+  $("#default").click ->
+    $("input[id*='flight_configuration_motor']").each ->
+      $(this).val -> 30
+    self.correctionVector.val -> 5
+    self.correctionLimit.val -> 5
+    saveForm()
 
 $ ->
   $("#increment").click (e) ->
@@ -71,6 +82,8 @@ autoupdate = () ->
       self.motor2.val -> response.motor2;
       self.motor3.val -> response.motor3;
       self.motor4.val -> response.motor4;
+      self.correctionVector.val -> response.correction_vector;
+      self.correctionLimit.val -> response.correction_limit;
   )
 
 setInterval(autoupdate, 500)

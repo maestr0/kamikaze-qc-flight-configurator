@@ -11,34 +11,37 @@
             </ul>
         </div>
     <% end %>
-    <p class="text-center">
+    <p class="text-center main-control-buttons">
         <button class="btn btn-primary btn-large text-centre" id="increment">+</button>
         <button class="btn btn-primary btn-large" id="decrement">-</button>
         <button class="btn btn-danger btn-large" id="stop">EMERGENCY STOP</button>
+        <button class="btn btn-warning btn-large" id="default">DEFAULT</button>
     </p>
 
     <div class="row">
-        <div class="span3">
-            <div class="field">
-                <%= f.label :motor1 %><br/>
+        <div class="span6">
+            <div class="field  alert alert-info">
+                <%= f.label :M1, :class => "badge badge-inverse" %><br/>
                 <%= f.number_field :motor1 %>
             </div>
         </div>
-        <div class="span3">
-            <div class="field">
-                <%= f.label :motor2 %><br/>
+        <div class="span6">
+            <div class="field alert alert-error">
+                <%= f.label :M2, :class => "badge badge-important" %><br/>
                 <%= f.number_field :motor2 %>
             </div>
         </div>
-        <div class="span3">
-            <div class="field">
-                <%= f.label :motor3 %><br/>
+    </div>
+    <div class="row">
+        <div class="span6">
+            <div class="field alert alert-error">
+                <%= f.label :M3, :class => "badge badge-important" %><br/>
                 <%= f.number_field :motor3 %>
             </div>
         </div>
-        <div class="span3">
-            <div class="field">
-                <%= f.label :motor4 %><br/>
+        <div class="span6">
+            <div class="field  alert alert-info">
+                <%= f.label :M4, :class => "badge badge-inverse" %><br/>
                 <%= f.number_field :motor4 %>
             </div>
         </div>
@@ -47,15 +50,15 @@
 
 
     <div class="row">
-        <div class="field span3">
+        <div class="field span4">
             <%= f.label :control_status %><br/>
             <%= f.number_field :control_status %>
         </div>
-        <div class="field span3">
+        <div class="field span4">
             <%= f.label :correction_vector %><br/>
             <%= f.number_field :correction_vector %>
         </div>
-        <div class="field span3">
+        <div class="field span4">
             <%= f.label :correction_limit %><br/>
             <%= f.number_field :correction_limit %>
         </div>
