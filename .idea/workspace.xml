@@ -3,27 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QC-control-panel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/.rvmrc" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361572089446" ignored="false" />
-    <file path="/Dummy.txt" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361626475898" ignored="false" />
+    <file path="/Dummy.txt" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662998983" ignored="false" />
     <file path="/20130222235455_change_flight_configuration_column_datatype.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361577871304" ignored="false" />
     <file path="/20130222224702_create_configurations.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361577641316" ignored="false" />
     <file path="$PROJECT_DIR$/config/environments/production.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361578437291" ignored="false" />
     <file path="/routes.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361628140096" ignored="false" />
     <file path="/20130223002924_rename_columns.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361579546072" ignored="false" />
-    <file path="/flight_configurations.js.coffee" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662550072" ignored="false" />
-    <file path="/_form.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361661011432" ignored="false" />
+    <file path="/flight_configurations.js.coffee" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664828593" ignored="false" />
+    <file path="/_form.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664424323" ignored="false" />
     <file path="/flight_configurations.css.scss" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662417811" ignored="false" />
-    <file path="/edit.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662904047" ignored="false" />
+    <file path="/edit.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664220409" ignored="false" />
     <file path="/application.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662935096" ignored="false" />
+    <file path="/_navigation.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664617684" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="68" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.75">
+            <state line="2" column="5" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -94,34 +94,25 @@
       <file leaf-file-name="_navigation.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="13" selection-end="17" vertical-scroll-proportion="-0.0">
+            <state line="5" column="91" selection-start="183" selection-end="183" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="79" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="29" selection-start="489" selection-end="498" vertical-scroll-proportion="0.41899443">
+            <state line="27" column="85" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-16.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flight_configurations.js.coffee" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="flight_configurations.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="29" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.77540106">
               <folding />
             </state>
           </provider>
@@ -130,7 +121,7 @@
       <file leaf-file-name="flight_configurations.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="5" column="10" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,18 +171,18 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130223002924_rename_columns.rb" />
         <option value="$PROJECT_DIR$/app/views/flight_configurations/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/flight_configuration.rb" />
         <option value="$PROJECT_DIR$/app/views/flight_configurations/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navigation.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" />
       </list>
     </option>
   </component>
@@ -883,7 +874,11 @@
       <created>1361626480457</created>
       <updated>1361626480458</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nicer UI &#10;configuration API works">
+      <created>1361663011833</created>
+      <updated>1361663011833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -920,7 +915,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.07010835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984066" sideWeight="0.21940464" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.49267048" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984066" sideWeight="0.21940464" order="1" side_tool="true" content_ui="tabs" />
@@ -974,7 +969,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic app + twitter bootstrap + flight_configuration model CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="nicer UI &#10;configuration API works" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -988,6 +983,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="basic app + twitter bootstrap + flight_configuration model CRUD" />
+    <MESSAGE value="nicer UI &#10;configuration API works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1031,13 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/flight_configurations_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
@@ -1059,44 +1048,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="79" selection-start="211" selection-end="211" vertical-scroll-proportion="-3.125">
+        <state line="5" column="79" selection-start="211" selection-end="211" vertical-scroll-proportion="0.08971292">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="68" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.75">
+        <state line="2" column="5" selection-start="47" selection-end="47" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/flight_configurations.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="17" selection-start="13" selection-end="17" vertical-scroll-proportion="0.0">
+        <state line="5" column="10" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/flight_configurations/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="489" selection-end="498" vertical-scroll-proportion="0.41899443">
+        <state line="27" column="85" selection-start="1044" selection-end="1044" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="91" selection-start="183" selection-end="183" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.77540106">
           <folding />
         </state>
       </provider>

@@ -21,7 +21,14 @@ $ ->
 
 
 processData = (data, textStatus, jqXHR) ->
-#  console.log(data)
+  #  console.log(data)
+
+$ ->
+  $("#stop").click ->
+    $("input[id*='flight_configuration_motor']").each ->
+      $(this).val -> 0
+    saveForm()
+
 
 $ ->
   $("#increment").click (e) ->
