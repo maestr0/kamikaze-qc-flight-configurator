@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" name="Default" comment="added EMERGENCY STOP button">
+    <list default="true" id="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QC-control-panel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/.rvmrc" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361572089446" ignored="false" />
-    <file path="/Dummy.txt" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664950306" ignored="false" />
+    <file path="/Dummy.txt" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361666741453" ignored="false" />
     <file path="/20130222235455_change_flight_configuration_column_datatype.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361577871304" ignored="false" />
     <file path="/20130222224702_create_configurations.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361577641316" ignored="false" />
     <file path="$PROJECT_DIR$/config/environments/production.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361578437291" ignored="false" />
     <file path="/routes.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361628140096" ignored="false" />
     <file path="/20130223002924_rename_columns.rb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361579546072" ignored="false" />
-    <file path="/flight_configurations.js.coffee" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361666663331" ignored="false" />
+    <file path="/flight_configurations.js.coffee" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361667351094" ignored="false" />
     <file path="/_form.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664424323" ignored="false" />
     <file path="/flight_configurations.css.scss" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361662417811" ignored="false" />
     <file path="/edit.html.erb" changelist="f2d1ed22-f9e4-486e-b75e-cd7ed097d5a5" time="1361664220409" ignored="false" />
@@ -108,7 +108,7 @@
       <file leaf-file-name="flight_configurations.js.coffee" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="77" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45454547">
+            <state line="75" column="25" selection-start="1806" selection-end="1806" vertical-scroll-proportion="1.5098039">
               <folding />
             </state>
           </provider>
@@ -884,7 +884,11 @@
       <created>1361664896347</created>
       <updated>1361664896347</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI sync">
+      <created>1361666754235</created>
+      <updated>1361666754235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -975,7 +979,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added EMERGENCY STOP button" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI sync" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -991,6 +995,7 @@
     <MESSAGE value="basic app + twitter bootstrap + flight_configuration model CRUD" />
     <MESSAGE value="nicer UI &#10;configuration API works" />
     <MESSAGE value="added EMERGENCY STOP button" />
+    <MESSAGE value="UI sync" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1099,7 +1104,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/flight_configurations.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="77" selection-start="523" selection-end="523" vertical-scroll-proportion="0.45454547">
+        <state line="75" column="25" selection-start="1806" selection-end="1806" vertical-scroll-proportion="1.5098039">
           <folding />
         </state>
       </provider>

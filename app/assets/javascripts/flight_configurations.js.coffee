@@ -64,10 +64,13 @@ dataURL = "/configuration";
 autoupdate = () ->
   $.get(dataURL,
   (response)->
-    motor1.val -> response.motor1;
-    motor2.val -> response.motor2;
-    motor3.val -> response.motor3;
-    motor4.val -> response.motor4;
+    $ ->
+      self.isBeingChanged = $("input:focus").length == 0
+    if self.isBeingChanged
+      self.motor1.val -> response.motor1;
+      self.motor2.val -> response.motor2;
+      self.motor3.val -> response.motor3;
+      self.motor4.val -> response.motor4;
   )
 
-setInterval(autoupdate, 1000)
+setInterval(autoupdate, 500)
