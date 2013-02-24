@@ -67,6 +67,19 @@ $ ->
     fnAddValueToAllMotors(-1)
     saveForm()
 
+$ ->
+  $(".increment").click (e) ->
+    e.preventDefault();
+    $(this).parent().find("input").val ->
+      parseInt($(this).parent().find("input").val()) + 1
+    saveForm();
+
+$ ->
+  $(".decrement").click (e) ->
+    e.preventDefault();
+    $(this).parent().find("input").val ->
+      parseInt($(this).parent().find("input").val()) - 1
+    saveForm();
 
 fnAddValueToAllMotors = (value) ->
   $("input[id*='flight_configuration_motor']").each ->
