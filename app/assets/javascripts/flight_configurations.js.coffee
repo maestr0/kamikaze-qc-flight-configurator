@@ -16,7 +16,8 @@ $ ->
   self.correctionVector = $("#flight_configuration_correction_vector")
 $ ->
   self.correctionLimit = $("#flight_configuration_correction_limit")
-
+$ ->
+  self.controlStatus = $("#flight_configuration_control_status")
 self = this;
 
 saveForm = () ->
@@ -49,6 +50,7 @@ $ ->
       $(this).val -> 30
     self.correctionVector.val -> 5
     self.correctionLimit.val -> 5
+    self.controlStatus.val -> 1
     saveForm()
 
 $ ->
@@ -84,6 +86,7 @@ autoupdate = () ->
       self.motor4.val -> response.motor4;
       self.correctionVector.val -> response.correction_vector;
       self.correctionLimit.val -> response.correction_limit;
+      self.controlStatus.val -> response.control_status;
   )
 
 setInterval(autoupdate, 500)
