@@ -4,6 +4,16 @@
 
 
 console.log("Flight Controller Script");
+$ ->
+  self.motor1 = $("#flight_configuration_motor1")
+$ ->
+  self.motor2 = $("#flight_configuration_motor2")
+$ ->
+  self.motor3 = $("#flight_configuration_motor3")
+$ ->
+  self.motor4 = $("#flight_configuration_motor4")
+
+self = this;
 
 saveForm = () ->
   $.post(
@@ -49,3 +59,15 @@ fnAddValueToAllMotors = (value) ->
   $("input[id*='flight_configuration_motor']").each ->
     $(this).val -> value + parseInt($(this).val())
 
+dataURL = "/configuration";
+
+autoupdate = () ->
+  $.get(dataURL,
+  (response)->
+    motor1.val -> response.motor1;
+    motor2.val -> response.motor2;
+    motor3.val -> response.motor3;
+    motor4.val -> response.motor4;
+  )
+
+setInterval(autoupdate, 1000)
