@@ -21,11 +21,13 @@ $ ->
 self = this;
 
 saveForm = () ->
+  disableForm()
   $.post(
     $("form").attr('action')
     $("form").serialize()
     (data, textStatus, jqXHR) ->
       processData(data, textStatus, jqXHR)
+      enableForm()
   )
   return false
 $ ->
@@ -34,6 +36,13 @@ $ ->
     console.log("Clicked on UPDATE");
     saveForm()
 
+disableForm = () ->
+  $("button").each ->
+    $(this).attr("disabled","disabled")
+
+enableForm = () ->
+  $("button").each ->
+    $(this).removeAttr("disabled")
 
 processData = (data, textStatus, jqXHR) ->
   #  console.log(data)
@@ -102,4 +111,4 @@ autoupdate = () ->
       self.controlStatus.val -> response.control_status;
   )
 
-setInterval(autoupdate, 500)
+#setInterval(autoupdate, 500)

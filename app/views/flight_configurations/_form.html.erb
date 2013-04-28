@@ -23,16 +23,18 @@
             <div class="field  alert alert-info">
                 <%= f.label :M1, :class => "badge badge-inverse" %><br/>
                 <button class="btn btn-primary btn-large increment">+</button>
-                <%= f.number_field :motor1 %>
+                <%= f.number_field :motor1, :min => 0 %>
                 <button class="btn btn-primary btn-large decrement">-</button>
+                <%=image_tag("object_rotate_left.png", alt: "Left", :width =>100, :height => 100)%>
             </div>
         </div>
         <div class="span6">
             <div class="field alert alert-error">
                 <%= f.label :M2, :class => "badge badge-important" %><br/>
                 <button class="btn btn-primary btn-large increment">+</button>
-                <%= f.number_field :motor2 %>
+                <%= f.number_field :motor2, :min => 0 %>
                 <button class="btn btn-primary btn-large decrement">-</button>
+                <%=image_tag("object_rotate_right.png", alt: "R", :width =>100, :height => 100)%>
             </div>
         </div>
     </div>
@@ -41,16 +43,18 @@
             <div class="field alert alert-error">
                 <%= f.label :M3, :class => "badge badge-important" %><br/>
                 <button class="btn btn-primary btn-large increment">+</button>
-                <%= f.number_field :motor3 %>
+                <%= f.number_field :motor3, :min => 0 %>
                 <button class="btn btn-primary btn-large decrement">-</button>
+                <%=image_tag("object_rotate_right.png", alt: "R", :width =>100, :height => 100)%>
             </div>
         </div>
         <div class="span6">
             <div class="field  alert alert-info">
                 <%= f.label :M4, :class => "badge badge-inverse" %><br/>
                 <button class="btn btn-primary btn-large increment">+</button>
-                <%= f.number_field :motor4 %>
+                <%= f.number_field :motor4, :min => 0 %>
                 <button class="btn btn-primary btn-large decrement">-</button>
+                <%=image_tag("object_rotate_left.png", alt: "Left", :width =>100, :height => 100)%>
             </div>
         </div>
     </div>
@@ -67,13 +71,13 @@
         <div class="field span4">
             <%= f.label :correction_vector %><br/>
             <button class="btn btn-primary btn-large increment">+</button>
-            <%= f.number_field :correction_vector %>
+            <%= f.number_field :correction_vector, :min => 0 %>
             <button class="btn btn-primary btn-large decrement">-</button>
         </div>
         <div class="field span4">
             <%= f.label :correction_limit %><br/>
             <button class="btn btn-primary btn-large increment">+</button>
-            <%= f.number_field :correction_limit %>
+            <%= f.number_field :correction_limit, :min => 0 %>
             <button class="btn btn-primary btn-large decrement">-</button>
         </div>
     </div>
